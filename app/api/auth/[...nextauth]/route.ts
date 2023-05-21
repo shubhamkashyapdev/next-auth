@@ -29,6 +29,7 @@ export const authOptions: NextAuthOptions = {
           name: user.name,
           image: user.image,
           emailVerified: new Date().toISOString(),
+          isVerified: true,
         },
       })
       console.log(`New user created`)
@@ -61,7 +62,6 @@ export const authOptions: NextAuthOptions = {
           password: string
           csrfToken: string
         }
-        console.log(credentials)
         const user = { id: "1", name: "Admin", email: "admin@admin.com" }
         return user
       },

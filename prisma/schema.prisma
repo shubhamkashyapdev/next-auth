@@ -52,7 +52,7 @@ model User {
   name          String?
   email         String?   @unique
   emailVerified DateTime?
-  isVerfied     Boolean   @default(false)
+  isVerified    Boolean   @default(false)
   image         String?
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @default(now())

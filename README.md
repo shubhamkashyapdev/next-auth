@@ -12,6 +12,8 @@ yarn dev
 pnpm dev
 ```
 
+_ENV VAR_: rename ``.env.example`` to ``.env`` and add the required environment variables
+
 _@todo_ - ``make the next auth work with prisma adapter``
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
